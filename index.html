@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container for the to-do list app -->
+    <div class="container">
+        <h2>To-Do List</h2>
+
+        <!-- Section for user authentication (login/signup) -->
+        <div id="auth-section">
+            <!-- Input field for username -->
+            <input type="text" id="username" placeholder="Enter Username">
+            <!-- Input field for password -->
+            <input type="password" id="password" placeholder="Enter Password">
+            <!-- Button to trigger login function -->
+            <button onclick="login()">Login</button>
+            <!-- Button to trigger signup function -->
+            <button onclick="signup()">Sign Up</button>
+        </div>
+
+        <!-- Section for the to-do list (initially hidden, shown after login) -->
+        <div id="todo-section" style="display: none;">
+            <!-- Input field to add new tasks -->
+            <input type="text" id="new-task" placeholder="Enter new task">
+            <!-- Button to trigger the addTask function to add tasks to the list -->
+            <button onclick="addTask()">Add Task</button>
+            <!-- Ordered list to display the to-do tasks -->
+            <ol id="todo-list"></ol>
+            <!-- Button to trigger the saveAndExit function to save tasks and exit -->
+            <button onclick="saveAndExit()">Save and Exit</button>
+        </div>
+    </div>
+    
+    <!-- Link to external JavaScript file for app functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
