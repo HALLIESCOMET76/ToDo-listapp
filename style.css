@@ -1,9 +1,9 @@
 /* Apply animated gradient background and center content */
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, #4f67db, #8a2387, #e94057, #f27121);
+  background: linear-gradient(135deg,#4a0788,#760cda, #8a2387,#cc175c, #e94057, #f27121, rgb(243, 172, 18),rgb(229, 233, 12),rgb(187, 255, 0));
   background-size: 400% 400%;
-  animation: gradientBackground 15s ease infinite;
+  animation: gradientBackground 10s ease infinite;
   display: flex;
   justify-content: center;
   align-items: center;
