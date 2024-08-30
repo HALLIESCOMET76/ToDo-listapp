@@ -85,3 +85,6 @@ button:active {
 #todo-section button:last-of-type:hover {
   background-color: #e94057;
 }
+#footer{
+  text-align: center;
+}
